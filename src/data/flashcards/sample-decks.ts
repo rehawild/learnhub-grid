@@ -1,0 +1,55 @@
+import { FlashcardDeck } from "@/types/flashcard";
+
+export const sampleDecks: FlashcardDeck[] = [
+  {
+    id: "common-words",
+    name: "Common English Words",
+    description: "Essential vocabulary for everyday conversations",
+    cards: [
+      { id: "1", front: "Abundant", back: "Present in great quantity; more than adequate" },
+      { id: "2", front: "Benevolent", back: "Well-meaning and kindly; charitable" },
+      { id: "3", front: "Candid", back: "Truthful and straightforward; frank" },
+      { id: "4", front: "Diligent", back: "Having or showing care in one's work or duties" },
+      { id: "5", front: "Eloquent", back: "Fluent or persuasive in speaking or writing" },
+      { id: "6", front: "Feasible", back: "Possible to do easily or conveniently" },
+      { id: "7", front: "Gregarious", back: "Fond of company; sociable" },
+      { id: "8", front: "Humble", back: "Having a modest view of one's importance" },
+      { id: "9", front: "Inevitable", back: "Certain to happen; unavoidable" },
+      { id: "10", front: "Jubilant", back: "Feeling or expressing great happiness" },
+    ],
+  },
+  {
+    id: "phrasal-verbs",
+    name: "Phrasal Verbs",
+    description: "Common phrasal verbs and their meanings",
+    cards: [
+      { id: "1", front: "Break down", back: "Stop functioning; analyze into parts" },
+      { id: "2", front: "Bring up", back: "Mention; raise a child" },
+      { id: "3", front: "Call off", back: "Cancel an event or activity" },
+      { id: "4", front: "Come across", back: "Find or meet by chance" },
+      { id: "5", front: "Get along", back: "Have a friendly relationship" },
+      { id: "6", front: "Give up", back: "Stop trying; surrender" },
+      { id: "7", front: "Look forward to", back: "Anticipate with pleasure" },
+      { id: "8", front: "Put off", back: "Postpone; delay" },
+      { id: "9", front: "Run out of", back: "Use all of something" },
+      { id: "10", front: "Turn down", back: "Reject; reduce volume" },
+    ],
+  },
+  {
+    id: "idioms",
+    name: "Common Idioms",
+    description: "Popular English idioms and expressions",
+    cards: [
+      { id: "1", front: "Break the ice", back: "Start a conversation in a social situation" },
+      { id: "2", front: "Hit the nail on the head", back: "Describe exactly what is causing a situation" },
+      { id: "3", front: "Piece of cake", back: "Something very easy to do" },
+      { id: "4", front: "Cost an arm and a leg", back: "Be very expensive" },
+      { id: "5", front: "Under the weather", back: "Feeling ill or sick" },
+      { id: "6", front: "Bite the bullet", back: "Face a difficult situation bravely" },
+      { id: "7", front: "Spill the beans", back: "Reveal secret information" },
+      { id: "8", front: "On the same page", back: "In agreement about something" },
+      { id: "9", front: "The ball is in your court", back: "It's your turn to take action" },
+      { id: "10", front: "Burn the midnight oil", back: "Work late into the night" },
+    ],
+  },
+];

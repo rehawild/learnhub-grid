@@ -1,7 +1,7 @@
 import { createTool, Tool } from "@/types/tool";
 
 export const vocabularyTools: Tool[] = [
-  createTool("vocab-1", "Flashcards", "🃏", "tool-card-red", "vocabulary"),
+  createTool("vocab-1", "Flashcards", "🃏", "tool-card-red", "vocabulary", { url: "/flashcards" }),
   createTool("vocab-2", "Word Match", "🔗", "tool-card-orange", "vocabulary"),
   createTool("vocab-3", "Spelling Bee", "🐝", "tool-card-yellow", "vocabulary"),
   createTool("vocab-4", "Synonym Finder", "📚", "tool-card-green", "vocabulary"),

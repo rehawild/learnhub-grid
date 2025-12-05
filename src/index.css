@@ -148,4 +148,21 @@
   .tool-card-purple { background-color: hsl(var(--tool-purple)); }
   .tool-card-pink { background-color: hsl(var(--tool-pink)); }
   .tool-card-lime { background-color: hsl(var(--tool-lime)); }
+
+  /* 3D Flip Card Styles */
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
 }
