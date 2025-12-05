@@ -1,11 +1,13 @@
-import { Tool } from "@/data/tools";
+import { Tool } from "@/types/tool";
 import { cn } from "@/lib/utils";
 
+// Interface Segregation: Props only include what ToolCard needs
 interface ToolCardProps {
   tool: Tool;
   onClick?: () => void;
 }
 
+// Single Responsibility: Component only handles rendering a tool card
 export const ToolCard = ({ tool, onClick }: ToolCardProps) => {
   return (
     <button
