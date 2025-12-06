@@ -150,19 +150,31 @@
   .tool-card-lime { background-color: hsl(var(--tool-lime)); }
 
   /* 3D Flip Card Styles */
-  .perspective-1000 {
+  .flip-card {
     perspective: 1000px;
   }
 
-  .transform-style-3d {
+  .flip-card-inner {
+    position: relative;
+    transition: transform 0.6s;
     transform-style: preserve-3d;
   }
 
-  .backface-hidden {
-    backface-visibility: hidden;
+  .flip-card-inner.flipped {
+    transform: rotateY(180deg);
   }
 
-  .rotate-y-180 {
+  .flip-card-front,
+  .flip-card-back {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .flip-card-front {
     transform: rotateY(180deg);
+  }
+
+  .flip-card-back {
+    transform: rotateY(0deg);
   }
 }
