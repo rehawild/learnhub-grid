@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Flashcards from "./pages/Flashcards";
 import WordMatch from "./pages/WordMatch";
+import SpellingBee from "./pages/SpellingBee";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/flashcards" element={<Flashcards />} />
           <Route path="/word-match" element={<WordMatch />} />
+          <Route path="/spelling-bee" element={<SpellingBee />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
