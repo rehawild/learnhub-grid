@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Flashcards from "./pages/Flashcards";
 import WordMatch from "./pages/WordMatch";
 import SpellingBee from "./pages/SpellingBee";
+import SynonymFinder from "./pages/SynonymFinder";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/flashcards" element={<Flashcards />} />
           <Route path="/word-match" element={<WordMatch />} />
           <Route path="/spelling-bee" element={<SpellingBee />} />
+          <Route path="/synonym-finder" element={<SynonymFinder />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
