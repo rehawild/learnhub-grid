@@ -10,6 +10,7 @@ import SpellingBee from "./pages/SpellingBee";
 import SynonymFinder from "./pages/SynonymFinder";
 import AntonymQuest from "./pages/AntonymQuest";
 import WordBuilder from "./pages/WordBuilder";
+import PrefixMaster from "./pages/PrefixMaster";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/synonym-finder" element={<SynonymFinder />} />
           <Route path="/antonym-quest" element={<AntonymQuest />} />
           <Route path="/word-builder" element={<WordBuilder />} />
+          <Route path="/prefix-master" element={<PrefixMaster />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
