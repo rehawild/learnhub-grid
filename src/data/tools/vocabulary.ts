@@ -8,5 +8,5 @@ export const vocabularyTools: Tool[] = [
   createTool("vocab-5", "Antonym Quest", "↔️", "tool-card-teal", "vocabulary", { url: "/antonym-quest" }),
   createTool("vocab-6", "Word Builder", "🧱", "tool-card-blue", "vocabulary", { url: "/word-builder" }),
   createTool("vocab-7", "Prefix Master", "🔤", "tool-card-indigo", "vocabulary", { url: "/prefix-master" }),
-  createTool("vocab-8", "Suffix Lab", "✨", "tool-card-purple", "vocabulary"),
+  createTool("vocab-8", "Suffix Lab", "✨", "tool-card-purple", "vocabulary", { url: "/suffix-lab" }),
 ];
