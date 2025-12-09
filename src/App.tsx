@@ -12,6 +12,7 @@ import AntonymQuest from "./pages/AntonymQuest";
 import WordBuilder from "./pages/WordBuilder";
 import PrefixMaster from "./pages/PrefixMaster";
 import SuffixLab from "./pages/SuffixLab";
+import TenseTrainer from "./pages/TenseTrainer";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -32,6 +33,7 @@ const App = () => (
           <Route path="/word-builder" element={<WordBuilder />} />
           <Route path="/prefix-master" element={<PrefixMaster />} />
           <Route path="/suffix-lab" element={<SuffixLab />} />
+          <Route path="/tense-trainer" element={<TenseTrainer />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
