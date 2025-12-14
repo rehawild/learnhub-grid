@@ -1,0 +1,1 @@
+Let's implement the [name] tool. Style it based on the tools we implemented before. Don't forget to apply SOLID principles and also our standartization guide in the root folder.
